@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ApiController < ApplicationController
   def greetings
     @greetings = Greeting.order('RANDOM()').first
